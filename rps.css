@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin-top: 1rem;
+}
+.chioces{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+.btn{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 2rem;
+    border: none;
+}
+.btn:hover{
+    border: 5px solid black;
+}
+.scores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    gap: 4rem;
+    margin-top: 2rem;
+}
+.Uscore,.Cscore{
+    font-size: 2rem;
+}
+
+.play-btn{
+    display: flex;
+}
+
+.msg{
+    display: block;
+    margin: auto;
+    background: black;
+    color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: 2rem;
+}
